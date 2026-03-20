@@ -1,0 +1,81 @@
+.App {
+  text-align: center;
+  background: linear-gradient(135deg, #f8fafc 0%, #e0e7ff 100%);
+  min-height: 100vh;
+}
+
+.navbar {
+  background-color: #4f46e5 !important;
+}
+.navbar-brand {
+  color: #fff !important;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.nav-link {
+  color: #a5b4fc !important;
+  font-weight: 500;
+}
+.nav-link.active {
+  color: #fff !important;
+  background-color: #6366f1 !important;
+  border-radius: 4px;
+}
+.card {
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(79,70,229,0.1);
+}
+.card-body {
+  background: #fff;
+}
+h2 {
+  color: #4f46e5;
+  font-weight: 700;
+}
+table {
+  background: #f3f4f6;
+  border-radius: 8px;
+}
+th {
+  background: #6366f1;
+  color: #fff;
+}
+tr:nth-child(even) {
+  background: #e0e7ff;
+}
+tr:nth-child(odd) {
+  background: #f8fafc;
+}
+td {
+  color: #374151;
+}
+.btn-primary {
+  background-color: #6366f1;
+  border-color: #6366f1;
+}
+.btn-primary:hover {
+  background-color: #4f46e5;
+  border-color: #4f46e5;
+}
+.App-logo {
+  height: 60px;
+  margin-right: 16px;
+  float: left;
+}
+.modal-content {
+  border-radius: 12px;
+}
+.modal-header {
+  background: #4f46e5;
+  color: #fff;
+}
+.modal-footer {
+  background: #e0e7ff;
+}
+.form-control {
+  border-radius: 8px;
+}
+.App-link {
+  color: #6366f1;
+  font-weight: 600;
+}
